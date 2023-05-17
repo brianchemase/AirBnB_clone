@@ -1,26 +1,29 @@
-div.container {
-    max-width: 1000px;
-    margin: 30px auto;
-    text-align: center;
-}
-section.filters {
-    background-color: white;
+/*
+ * === Filters style ===
+ */
+
+/* Filters style */
+.filters {
+    background-color: #ffffff;
     height: 70px;
     width: 100%;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #dddddd;
     border-radius: 4px;
 }
-section.filters button {
-    background-color: #FF5A5F;
+/* Search button style */
+.filters button{
+    
+    background: #ff5a5f;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    float: right;
     height: 48px;
     width: 20%;
-    border: 0;
-    border-radius: 4px;
     font-size: 18px;
-    color: #FFFFFF;
-    float: right;
-    margin: 11px 30px;
+    margin: 12px 30px;
 }
-section.filters button:hover {
-    opacity: .9;
+/*change opacity to 90% when the mouse is on the button*/
+.filters button:hover{
+    background-color: rgba(255, 90, 95, .9);
 }
